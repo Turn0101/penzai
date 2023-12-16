@@ -1,0 +1,31 @@
+<xzs-header></xzs-header>
+
+<view class="banner">
+  <swiper
+  indicator-dots
+  indicator-active-color="#5aa85e"
+  previous-margin="30rpx"
+  >
+    <swiper-item>
+      <image src="/pages/src/plant_01.jpg" mode=""/>
+    </swiper-item>
+    <swiper-item>
+      <image src="/pages/src/plant_02.jpg" mode=""/>
+    </swiper-item>
+    <swiper-item>
+      <image src="/pages/src/plant_03.jpg" mode=""/>
+    </swiper-item>
+  </swiper>
+</view>
+
+<view class="out">
+  <view class="row" wx:for="{{3}}" wx:key="">
+    <view class="pic">
+      <image class="img" src="/pages/src/main_01.jpg" mode="aspectFill"/>
+    </view>
+    <view class="text">
+      <navigator url="/pages/detai/detail" class="title">普通小盆栽</navigator>
+      <view class="info">接下来：1月18日的水</view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,15 @@
+<view class="header">
+  <view class="picl">
+    <image src="/pages/src/盆栽选中.png" mode="heightFix" class="pic_01"/>
+  </view>
+  <view class="text">盆栽项目</view>
+  <view class="picr">
+    <image src="/pages/src/植物.png" mode="heightFix" class="pic_02"/>
+  </view>
+</view>
+
+<view class="kefu">
+  <button class="btn" open-type="contact">1</button>
+  <image class="pic" src="/pages/src/客服_white.png" mode="aspectFill"/>
+  <view class="line"></view>
+</view>

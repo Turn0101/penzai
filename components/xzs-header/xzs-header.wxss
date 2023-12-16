@@ -1,0 +1,80 @@
+.header {
+  height: 120rpx;
+  border-bottom: 1px solid #5aa85e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30rpx;
+  background-color: #d2f1d3;
+}
+
+.picl {
+  height: 70rpx;
+}
+
+.pic_01 {
+  height: 100%;
+}
+
+.picr {
+  height: 70rpx;
+}
+
+.pic_02 {
+  height: 100%;
+}
+
+.header .text {
+  color: #5aa85e;
+  font-size: large;
+}
+
+.kefu {
+  width: 100rpx;
+  height: 100rpx;
+  position: fixed;
+  bottom: 80rpx;
+  right: 50rpx;
+  background-color: rgba(110, 211, 124, 0.774);
+  border-radius: 50%;
+  box-shadow: 0 0 30rpx rgba(165, 216, 56, 0.507);
+}
+
+.kefu .btn {
+  opacity: 0;
+  z-index: 1;
+}
+
+.kefu .pic {
+  width: 85%;
+  height: 85%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  bottom: 0%;
+  right: 0%;
+  margin: 8%;
+}
+
+.kefu .line {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  border: 3px solid rgba(20, 182, 128, 0.329);
+  position: absolute;
+  left: -5%;
+  top: 0%;
+  bottom: 0%;
+  right: 0%;
+  margin: auto;
+  animation: emit 2s infinite;
+}
+
+@keyframes emit {
+  0% {
+  }
+  100% {
+    border-width: 1px;
+    opacity: 0;
+  }
+}

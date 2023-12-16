@@ -1,0 +1,48 @@
+{
+  "usingComponents": {
+    "xzs-header":"/components/xzs-header/xzs-header"
+  },
+  "pages": [
+    "pages/index/index",
+    "pages/classify/classify",
+    "pages/news/news",
+    "pages/detai/detail"
+  ],
+  "window": {
+    "navigationBarTitleText":"盆栽项目app",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "##d2f1d3",
+    "backgroundColor": "#d2f1d3",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页", 
+      "iconPath": "/pages/src/首页.png",
+      "selectedIconPath": "/pages/src/首页_fill.png"
+    },{
+      "pagePath": "pages/classify/classify",
+      "text": "分类",
+      "iconPath": "/pages/src/分类.png",
+      "selectedIconPath": "/pages/src/分类_fill.png"
+    },{
+        "pagePath": "pages/news/news",
+        "text": "资讯",
+        "iconPath": "/pages/src/文章.png",
+        "selectedIconPath": "/pages/src/文章_fill.png"
+    }]
+  },
+  "style": "v2",
+  "rendererOptions": {
+    "skyline": {
+      "defaultDisplayBlock": true,
+      "disableABTest": true,
+      "sdkVersionBegin": "3.0.0",
+      "sdkVersionEnd": "15.255.255"
+    }
+  },
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

@@ -1,0 +1,46 @@
+.picup {
+  width: 100%;
+  height: 550rpx;
+}
+
+.picup .img {
+  width: 100%;
+  height: 100%;
+}
+
+.out {
+  background-color: white;
+}
+
+.out .row {
+  border-bottom: 1px solid #eee;
+  margin-top: 20rpx;
+  padding: 20rpx;
+  display: flex;
+}
+
+.out .row .pic {
+  width: 80rpx;
+  height: 80rpx;
+}
+
+.out .row .pic image {
+  width: 100%;
+  height: 100%;
+}
+
+.out .row .text {
+  width: 650rpx;
+  display: flex;
+  align-items: center;
+  padding: 0 20rpx;
+  justify-content: space-between;
+}
+
+.out .row:first-child {
+  margin-top: 0%;
+}
+
+page {
+  background-color: #eee;
+}
